@@ -1,220 +1,213 @@
 body {
-    font-family: 'Roboto', 'Open Sans', sans-serif;
-    width: auto;
-    height: 100%;
-    max-height: 2160px;
-    background-image: url("images/fon.png");
-    background-repeat: repeat;
-    margin: 0;
-    padding: 0;
+  font-family: 'Roboto', 'Open Sans', sans-serif;
+  width: auto;
+  height: 100%;
+  max-height: 2160px;
+  background-image: url('images/fon.png');
+  background-repeat: repeat;
+  margin: 0;
+  padding: 0;
 }
 .header {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-column-start: 1;
-    grid-column-end: 4;
-    margin: 0 auto;
-    width: 100%;
-    background-color: #BF6C22;
-    margin-bottom: 30px;
-    height: 88px;
-    position: fixed;
-    top: 0;
-    overflow: hidden;
-    box-shadow: 1px 6px 15px #444;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  margin: 0 auto;
+  width: 100%;
+  background-color: #bf6c22;
+  margin-bottom: 30px;
+  height: 88px;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  box-shadow: 1px 6px 15px #444;
 }
 .header .more .button {
-    background: #BF6C22;
-    cursor: pointer;
+  background: #bf6c22;
+  cursor: pointer;
 }
 .Title {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    font-family: 'Roboto', 'Open Sans', sans-serif;
-    color: white;
-    background-color: #BF6C22;
-    font-size: 32px;
-    text-align: left;
-    margin-left: 12px;
-    height: max-content;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  font-family: 'Roboto', 'Open Sans', sans-serif;
+  color: white;
+  background-color: #bf6c22;
+  font-size: 32px;
+  text-align: left;
+  margin-left: 12px;
+  height: max-content;
 }
 .Title:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 .button {
-    display: inline-block;
-    background: #B37920;
-    color: white;
-    font-size: 22px;
-    padding: 27px;
-    margin: 5px;
-    text-align: center;
-    text-justify: distribute;
-    text-decoration: none;
-    border-radius: 3px;
+  display: inline-block;
+  background: #b37920;
+  color: white;
+  font-size: 22px;
+  padding: 27px;
+  text-align: center;
+  text-justify: distribute;
+  text-decoration: none;
+  border-radius: 3px;
 }
 .button:hover {
-    background: #C97424;
-    border-radius: 2px;
+  background: #c97424;
+  border-radius: 2px;
 }
 .button:active {
-    background: #C99B24;
-    border-radius: 2px;
+  background: #c99b24;
+  border-radius: 2px;
 }
 .more {
-    font-family: 'Roboto', 'Open Sans', sans-serif;
-    grid-column-start: 4;
-    grid-column-end: 5;
-    color: white;
-    background-color: #BF6C22;
-    justify-content: center;
-    align-items: center;
+  font-family: 'Roboto', 'Open Sans', sans-serif;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  color: white;
+  background-color: #bf6c22;
+  justify-content: center;
+  align-items: center;
 }
-.more, button {
-    height: 88px;
-    text-align: end;
-    padding-right: 30px;
+.more,
+button {
+  height: 88px;
+  text-align: end;
+  padding-right: 30px;
 }
 .calcContainer {
-    padding-top: 115px;
-    display: grid;
-    grid-template-columns: 250px auto 250px;
+  padding-top: 115px;
+  display: grid;
+  grid-template-columns: 250px auto 250px;
 }
 #pa {
-    padding: 0;
-}
-.calc {
-    color: white;
-    font-size: 18px;
-    margin: 20px;
-    text-align: center;
-    text-justify: distribute;
-    text-decoration: none;
+  padding: 0;
 }
 .buttons1 {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 0.27rem;
 }
 #ac {
-
-    grid-column-start: 1;
-    grid-column-end: 3;
-
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 #result {
-    grid-column-start: 3;
-    grid-column-end: 5;
+  grid-column-start: 3;
+  grid-column-end: 5;
 }
 .myinput {
-    grid-column-start: 1;
-    grid-column-end: -1;
-    height: 65px;
-    width: 100%;
-    font-size: 50px;
-    text-align: right;
+  box-sizing: border-box;
+  grid-column-start: 1;
+  grid-column-end: -1;
+  height: 65px;
+  width: 100%;
+  font-size: 50px;
+  text-align: right;
+  margin-bottom: 0.27rem;
 }
 #caja2 {
-    grid-column-start: 2;
-    grid-column-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
 }
 #fu {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    text-align: center;
-    font-size: 30px;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
 }
 .re {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-content: center;
-    align-content: center;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  align-content: center;
 }
 .footer {
-    background: #BF6C22;
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    position: relative;
-    box-shadow: 1px 6px 15px #444;
+  background: #bf6c22;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  position: relative;
+  box-shadow: 1px 6px 15px #444;
 }
 .parrafo {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-    text-align: left;
-    grid-column-start: 4;
-    grid-column-end: 5;
-    grid-row-start: 1;
-    grid-row-end: 3;
-    font-size: 16px;
-    color: white;
-    padding-left: 110px;
-    cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  text-align: left;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  font-size: 16px;
+  color: white;
+  padding-left: 110px;
+  cursor: pointer;
 }
 .face {
-    width: fit-content;
-    height: fit-content;
-    text-align: center;
-    justify-content: center;
-    align-content: center;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-    padding-left: 30px;
-    padding-right: 30px;
+  width: fit-content;
+  height: fit-content;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 .face:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 .insta {
-    width: fit-content;
-    height: fit-content;
-    text-align: center;
-    justify-content: center;
-    align-content: center;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-    padding-right: 30px;
+  width: fit-content;
+  height: fit-content;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  padding-right: 30px;
 }
 .insta:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 .tw {
-    width: fit-content;
-    height: fit-content;
-    text-align: center;
-    justify-content: center;
-    align-content: center;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-    padding-left: 30px;
+  width: fit-content;
+  height: fit-content;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  padding-left: 30px;
 }
 .tw:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
-hr { 
-    border: none;
-    border-left: 1px solid white;
-    height: 50px;
-    width: 1px;
-    margin-top: 25px;
+hr {
+  border: none;
+  border-left: 1px solid white;
+  height: 50px;
+  width: 1px;
+  margin-top: 25px;
 }
 .parag {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    font-size: 26px;
-    color: white;
-    text-align: center;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  font-size: 21px;
+  color: white;
+  text-align: center;
 }
